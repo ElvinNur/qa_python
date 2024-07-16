@@ -1,0 +1,30 @@
+venv/
+.venv/
+
+# Игнорирование файлов и папок, созданных редакторами и IDE
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорирование файлов кэша и временных файлов
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.class
+
+# Игнорирование логов и временных файлов
+*.log
+*.tmp
+
+# Игнорирование отчетов pytest
+.cache/
+.pytest_cache/
+.coverage
+
+# Игнорирование других стандартных файлов и директорий
+.DS_Store
+Thumbs.db
